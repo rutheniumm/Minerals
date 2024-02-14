@@ -1,4 +1,3 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-
-createApp(App).mount('#app')
+let scr = document.createElement("script")
+scr.innerHTML = `<script type="module">alert(2)</script>`
+document.body.appendChild(scr)
